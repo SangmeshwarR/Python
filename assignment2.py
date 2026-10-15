@@ -6,7 +6,6 @@ if num == 0:
 elif num != 1:
     for i in range(1, num):
         num *= i
-        
     num -= 1
     
 num += 1

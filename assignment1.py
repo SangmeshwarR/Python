@@ -7,14 +7,3 @@ if n != 0:
 
 else:
     print("Number is even.")
-
-n1 = int(input("Give first number: "))
-n2 = int(input("Give second number: "))
-
-print("The numbers are:", n1 , "and" , n2)
-
-n1 = n1 + n2
-n2 = n1 - n2
-n1 = n1 - n2
-
-print("Swapped numbers are:", n1 , "and" , n2)
