@@ -1,13 +1,10 @@
 num = int(input("Give number: "))
-
-if num == 0:
+fact = 1
+if num < 2:
     print("1")
 
-elif num != 1:
-    for i in range(1, num):
-        num *= i
-    num -= 1
+else:
+    for i in range(1, num+1):
+        fact *= i
     
-num += 1
-
-print(num)
+print(f"The factorial of {num} is {fact}")

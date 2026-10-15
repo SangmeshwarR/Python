@@ -1,5 +1,4 @@
-count1  = 0
-count2 = 0
+count1, count2  = 0
 isPrime = 1
 while True:
     number = int(input("Give a number(-1 to stop): "))
@@ -15,12 +14,11 @@ while True:
             break
         else:
             isPrime = 1
-            
+
     if isPrime:
         count1 += 1
     else:
         count2 += 1
-            
 
 print("Prime numbers: ", count1)
 print("Composite numbers: ", count2)
